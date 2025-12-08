@@ -33,7 +33,7 @@ export default function Navigation() {
         <Link href="/about" className="text-foreground hover:text-primary transition">
           About
         </Link>
-        <Link href="/#contact" className="text-foreground hover:text-primary transition">
+        <Link href="/#contact" prefetch={false} className="text-foreground hover:text-primary transition">
           Contact
         </Link>
       </div>
@@ -87,6 +87,7 @@ export default function Navigation() {
             </Link>
             <Link
               href="/#contact"
+              prefetch={false}
               className="text-foreground hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >

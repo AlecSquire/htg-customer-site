@@ -12,12 +12,15 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-                Professional and affordable Removals, Man & Van and Clearance Services in South Devon
+              <div className="inline-flex items-center gap-2 rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700 mb-4">
+                Serving South Devon & the South West
+              </div>
+              <h1 className="text-5xl md:text-6xl font-bold mb-4 text-balance">
+                Professional removals, man & van and clearances in South Devon
               </h1>
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-                With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy
-                removal services across the South Hams, South Devon and the wider South West.
+                With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy removal
+                services across the South Hams, South Devon and the wider South West.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 From single items to full house moves, we treat every job with the same care and professionalism. Fully

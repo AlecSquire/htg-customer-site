@@ -1,154 +1,61 @@
-[00:00:00.607] Server  LOG      ✓ Ready in 417ms
-[00:00:03.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.067] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         data-darkreader-mode="dynamic"
--                         data-darkreader-scheme="dark"
--                         data-darkreader-proxy-injected="true"
-                        >
-                          ...
-                            <Home>
-                              <div className="min-h-scre...">
-                                ...
-                                  <button className="md:hidden" onClick={function onClick} aria-label="Toggle menu">
-                                    <Menu className="w-6 h-6">
-                                      <svg
-                                        ref={null}
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width={24}
-                                        height={24}
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth={2}
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        className="lucide lucide-menu w-6 h-6"
--                                       data-darkreader-inline-stroke=""
--                                       style={{--darkreader-inline-stroke:"currentColor"}}
-                                      >
-                                <Hero>
-                                  ...
-                                    <div className="flex items..." style={{opacity:0, ...}} ...>
-                                      <img
-                                        alt={"HTG Man & Van"}
-                                        fetchPriority={undefined}
-                                        loading={undefined}
-                                        width={600}
-                                        height={600}
-                                        decoding="async"
-                                        data-nimg="1"
-                                        className="w-full max-w-lg h-auto object-contain"
-+                                       style={{color:"transparent"}}
--                                       style={{color:"transparent",--darkreader-inline-color:"transparent"}}
-                                        sizes={undefined}
-                                        srcSet={undefined}
-                                        src="/images/hero-van.webp"
-                                        ref={function}
-                                        onLoad={function onLoad}
-                                        onError={function onError}
--                                       data-darkreader-inline-color=""
-                                      >
-                                      ...
-                                  ...
-                                    <div className="grid md:gr...">
-                                      ...
-                                        <div className="p-4 bg-gra...">
-                                          <Truck className="w-8 h-8 te...">
-                                            <svg
-                                              ref={null}
-                                              xmlns="http://www.w3.org/2000/svg"
-                                              width={24}
-                                              height={24}
-                                              viewBox="0 0 24 24"
-                                              fill="none"
-                                              stroke="currentColor"
-                                              strokeWidth={2}
-                                              strokeLinecap="round"
-                                              strokeLinejoin="round"
-                                              className="lucide lucide-truck w-8 h-8 text-black group-hover:text-white..."
--                                             data-darkreader-inline-stroke=""
--                                             style={{--darkreader-inline-stroke:"currentColor"}}
-                                            >
-                                      ...
-                                        <div className="p-4 bg-gra...">
-                                          <Package className="w-8 h-8 te...">
-                                            <svg
-                                              ref={null}
-                                              xmlns="http://www.w3.org/2000/svg"
-                                              width={24}
-                                              height={24}
-                                              viewBox="0 0 24 24"
-                                              fill="none"
-                                              stroke="currentColor"
-                                              strokeWidth={2}
-                                              strokeLinecap="round"
-                                              strokeLinejoin="round"
-                                              className="lucide lucide-package w-8 h-8 text-black group-hover:text-whi..."
--                                             data-darkreader-inline-stroke=""
--                                             style={{--darkreader-inline-stroke:"currentColor"}}
-                                            >
-                                      ...
-                                        <div className="p-4 bg-gra...">
-                                          <Trash2 className="w-8 h-8 te...">
-                                            <svg
-                                              ref={null}
-                                              xmlns="http://www.w3.org/2000/svg"
-                                              width={24}
-                                              height={24}
-                                              viewBox="0 0 24 24"
-                                              fill="none"
-                                              stroke="currentColor"
-                                              strokeWidth={2}
-                                              strokeLinecap="round"
-                                              strokeLinejoin="round"
-                                              className="lucide lucide-trash2 w-8 h-8 text-black group-hover:text-whit..."
--                                             data-darkreader-inline-stroke=""
--                                             style={{--darkreader-inline-stroke:"currentColor"}}
-                                            >
-                                ...
-                  ...
-
-[00:00:04.067] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:04.067] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:04.067] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://127.0.0.1:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272449361}
-[00:01:08.777] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://127.0.0.1:3001/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272514071}
-[00:01:26.789] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://127.0.0.1:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272532082}
-[00:01:29.125] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://127.0.0.1:3001/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272534419}
-[00:02:06.031] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://127.0.0.1:3001/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272571325}
-[00:02:54.845] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:54.992] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:54.992] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/man-and-van","route":"/man-and-van"}
-[00:02:54.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://127.0.0.1:3001/man-and-van","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272620284}
-[00:03:04.745] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://127.0.0.1:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272630038}
-[00:03:25.366] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://127.0.0.1:3001/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272650662}
-[00:04:17.514] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://127.0.0.1:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://127.0.0.1:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764272702808}
+[00:00:00.521] Server  LOG      ✓ Ready in 338ms
+[00:00:02.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.678] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:02.678] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:02.678] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223362373}
+[00:00:03.467] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:03.468] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:03.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223362473}
+[00:00:03.468] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:03.468] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:03.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223362477}
+[00:00:18.271] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223377966}
+[00:00:21.201] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223380894}
+[00:00:22.199] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223381893}
+[00:00:49.417] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223409111}
+[00:00:50.102] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.270] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:50.270] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:50.270] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223409965}
+[00:00:52.397] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223412092}
+[00:01:15.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223435069}
+[00:01:40.770] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:40.886] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:40.886] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/man-and-van","route":"/man-and-van"}
+[00:01:40.886] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223460582}
+[00:01:45.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223465170}
+[00:01:46.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:46.584] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:46.584] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:46.584] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223466280}
+[00:01:48.080] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223467775}
+[00:01:48.941] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223468637}
+[00:01:49.760] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://localhost:3000/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223469456}
+[00:01:50.894] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/why-choose-us color: rgb(120, 120, 120) color: inherit {"dp":"/why-choose-us","o":"http://localhost:3000/why-choose-us","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223470589}
+[00:01:51.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://localhost:3000/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223471283}
+[00:01:52.228] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223471923}
+[00:02:08.956] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223488651}
+[00:04:05.123] Server  LOG      ✓ Compiled in 188ms
+[00:04:20.352] Server  LOG      ✓ Compiled in 69ms
+[00:07:23.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:23.913] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:23.913] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:23.913] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223803611}
+[00:07:30.694] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223810391}
+[00:07:33.747] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223813443}
+[00:07:35.862] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223815558}
+[00:07:36.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223816656}
+[00:07:37.586] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://localhost:3000/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223817282}
+[00:07:38.782] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223818478}
+[00:07:41.930] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223821626}
+[00:07:42.856] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223822552}
+[00:07:43.716] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://localhost:3000/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223823411}
+[00:07:45.022] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223824719}
+[00:07:47.086] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/removals color: rgb(120, 120, 120) color: inherit {"dp":"/removals","o":"http://localhost:3000/removals","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223826782}
+[00:07:49.463] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/man-and-van color: rgb(120, 120, 120) color: inherit {"dp":"/man-and-van","o":"http://localhost:3000/man-and-van","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223829160}
+[00:08:21.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clearance color: rgb(120, 120, 120) color: inherit {"dp":"/clearance","o":"http://localhost:3000/clearance","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223861131}
+[00:08:24.800] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/why-choose-us color: rgb(120, 120, 120) color: inherit {"dp":"/why-choose-us","o":"http://localhost:3000/why-choose-us","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223864497}
+[00:08:32.461] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223872158}
+[00:08:35.824] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765223875520}
