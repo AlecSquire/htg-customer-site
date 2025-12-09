@@ -75,7 +75,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "Company number 16573954"
+                                    children: "8 Castle Court, Totnes TQ9 5PD"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
                                     lineNumber: 8,
@@ -83,7 +83,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "Licensed Waste Carrier #CBDU600553"
+                                    children: "Company number 16573954"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
                                     lineNumber: 9,
@@ -91,7 +91,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "8 Castle Court, Totnes TQ9 5PD"
+                                    children: "Licensed Waste Carrier #CBDU600553"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
                                     lineNumber: 10,
@@ -336,32 +336,6 @@ function ManAndVanPage() {
             ]
         },
         {
-            title: "1-man with Luton van",
-            rows: [
-                {
-                    label: "Half day",
-                    price: "£275"
-                },
-                {
-                    label: "Full day",
-                    price: "£500"
-                }
-            ]
-        },
-        {
-            title: "2 men with Luton van",
-            rows: [
-                {
-                    label: "Half day",
-                    price: "£400"
-                },
-                {
-                    label: "Full day",
-                    price: "£700"
-                }
-            ]
-        },
-        {
             title: "1-man with LWB van",
             rows: [
                 {
@@ -384,6 +358,32 @@ function ManAndVanPage() {
                 {
                     label: "Full day",
                     price: "£600"
+                }
+            ]
+        },
+        {
+            title: "1-man with Luton van",
+            rows: [
+                {
+                    label: "Half day",
+                    price: "£275"
+                },
+                {
+                    label: "Full day",
+                    price: "£500"
+                }
+            ]
+        },
+        {
+            title: "2 men with Luton van",
+            rows: [
+                {
+                    label: "Half day",
+                    price: "£400"
+                },
+                {
+                    label: "Full day",
+                    price: "£700"
                 }
             ]
         }
@@ -411,7 +411,7 @@ function ManAndVanPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg md:text-xl text-muted-foreground text-pretty",
-                            children: "Flexible, affordable man and van hire for all your transportation needs. From small vans carrying single items to full Lutons, we've got you covered."
+                            children: "Flexible, Affordable man and van hire for all your transportation needs. From small vans carrying single items to full Lutons, we've got you covered."
                         }, void 0, false, {
                             fileName: "[project]/app/man-and-van/page.tsx",
                             lineNumber: 78,
@@ -529,7 +529,7 @@ function ManAndVanPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl font-bold text-center mb-12",
-                            children: "Man & Van Pricing"
+                            children: "Domestic Man & Van Pricing"
                         }, void 0, false, {
                             fileName: "[project]/app/man-and-van/page.tsx",
                             lineNumber: 121,
@@ -538,7 +538,7 @@ function ManAndVanPage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-6",
                             children: pricingGroups.map((group, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "border border-border rounded-lg p-6 bg-gray-50",
+                                    className: "border border-border rounded-lg p-6 bg-gray-50 h-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-xl font-bold mb-4",
@@ -664,9 +664,52 @@ function ManAndVanPage() {
                 lineNumber: 119,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "px-6 pb-16 md:px-12",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-4xl mx-auto text-center bg-gray-50 border border-border rounded-lg p-8 md:p-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "text-2xl font-bold mb-4",
+                            children: "Questions about man & van services?"
+                        }, void 0, false, {
+                            fileName: "[project]/app/man-and-van/page.tsx",
+                            lineNumber: 154,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground mb-6",
+                            children: "Message us on WhatsApp and we'll help you choose the right van size and support."
+                        }, void 0, false, {
+                            fileName: "[project]/app/man-and-van/page.tsx",
+                            lineNumber: 155,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://wa.me/447765283257?text=Hi%2C%20I%27d%20like%20to%20chat%20about%20man%20%26%20van%20services.",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "inline-flex items-center justify-center bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition",
+                            children: "WhatsApp us about man & van"
+                        }, void 0, false, {
+                            fileName: "[project]/app/man-and-van/page.tsx",
+                            lineNumber: 158,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/man-and-van/page.tsx",
+                    lineNumber: 153,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/app/man-and-van/page.tsx",
                 lineNumber: 152,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/app/man-and-van/page.tsx",
+                lineNumber: 169,
                 columnNumber: 7
             }, this)
         ]

@@ -37,20 +37,6 @@ export default function ManAndVanPage() {
       ],
     },
     {
-      title: "1-man with Luton van",
-      rows: [
-        { label: "Half day", price: "£275" },
-        { label: "Full day", price: "£500" },
-      ],
-    },
-    {
-      title: "2 men with Luton van",
-      rows: [
-        { label: "Half day", price: "£400" },
-        { label: "Full day", price: "£700" },
-      ],
-    },
-    {
       title: "1-man with LWB van",
       rows: [
         { label: "Half day", price: "£250" },
@@ -62,6 +48,20 @@ export default function ManAndVanPage() {
       rows: [
         { label: "Half day", price: "£350" },
         { label: "Full day", price: "£600" },
+      ],
+    },
+    {
+      title: "1-man with Luton van",
+      rows: [
+        { label: "Half day", price: "£275" },
+        { label: "Full day", price: "£500" },
+      ],
+    },
+    {
+      title: "2 men with Luton van",
+      rows: [
+        { label: "Half day", price: "£400" },
+        { label: "Full day", price: "£700" },
       ],
     },
   ]
@@ -76,7 +76,7 @@ export default function ManAndVanPage() {
        
           <h1 className="text-4xl md:text-6xl font-bold mb-2 text-balance">Man & Van Services</h1>
           <p className="text-lg md:text-xl text-muted-foreground text-pretty">
-            Flexible, affordable man and van hire for all your transportation needs. From small vans carrying single
+            Flexible, Affordable man and van hire for all your transportation needs. From small vans carrying single
             items to full Lutons, we've got you covered.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
@@ -118,10 +118,10 @@ export default function ManAndVanPage() {
       {/* Pricing */}
       <section id="pricing" className="px-6 py-16 md:px-12 md:py-24 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Man & Van Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Domestic Man & Van Pricing</h2>
           <div className="space-y-6">
             {pricingGroups.map((group, index) => (
-              <div key={index} className="border border-border rounded-lg p-6 bg-gray-50">
+              <div key={index} className="border border-border rounded-lg p-6 bg-gray-50 h-full">
                 <h3 className="text-xl font-bold mb-4">{group.title}</h3>
                 <div className="space-y-2">
                   {group.rows.map((row, idx) => (
@@ -146,6 +146,23 @@ export default function ManAndVanPage() {
               <li>• Congestion charge, parking fees and tolls will be added to final invoice</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="px-6 pb-16 md:px-12">
+        <div className="max-w-4xl mx-auto text-center bg-gray-50 border border-border rounded-lg p-8 md:p-12">
+          <h3 className="text-2xl font-bold mb-4">Questions about man & van services?</h3>
+          <p className="text-muted-foreground mb-6">
+            Message us on WhatsApp and we&apos;ll help you choose the right van size and support.
+          </p>
+          <a
+            href="https://wa.me/447765283257?text=Hi%2C%20I%27d%20like%20to%20chat%20about%20man%20%26%20van%20services."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+          >
+            WhatsApp us about man & van
+          </a>
         </div>
       </section>
 

@@ -282,7 +282,7 @@ function Hero() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: "text-5xl md:text-6xl font-bold mb-4 text-balance",
-                                        children: "Professional removals, man & van and clearances in South Devon"
+                                        children: "Professional and Affordable removals, man & van and clearances in South Devon"
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 18,
@@ -290,7 +290,7 @@ function Hero() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-xl text-gray-700 mb-6 leading-relaxed",
-                                        children: "With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy removal services across the South Hams, South Devon and the wider South West."
+                                        children: "With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy services across the South Hams, South Devon and the wider South West."
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 21,
@@ -298,25 +298,51 @@ function Hero() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-lg text-gray-600 mb-8 leading-relaxed",
-                                        children: "From single items to full house moves, we treat every job with the same care and professionalism. Fully insured, locally trusted, and always on time."
+                                        children: "From full house moves, long distance courier or our range of clearance services, we treat every job with the same care and professionalism. Fully insured, locally trusted, and always on time."
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 25,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                                        href: "https://forms.gle/Dt4KmX9jkVonhaet5",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        className: "inline-block bg-black text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors text-lg",
-                                        whileHover: {
-                                            scale: 1.05
-                                        },
-                                        whileTap: {
-                                            scale: 0.95
-                                        },
-                                        children: "Get Your Free Removals Quote"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex flex-wrap gap-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                                                href: "https://forms.gle/Dt4KmX9jkVonhaet5",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                className: "inline-block bg-black text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors text-lg",
+                                                whileHover: {
+                                                    scale: 1.05
+                                                },
+                                                whileTap: {
+                                                    scale: 0.95
+                                                },
+                                                children: "Get Your Free Removals Quote"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/hero.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                                                href: "https://wa.me/447765283257?text=Hi%2C%20I%27m%20interested%20in%20your%20other%20services.",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                className: "inline-block border border-black text-black px-8 py-4 rounded-lg font-semibold hover:bg-black hover:text-white transition-colors text-lg",
+                                                whileHover: {
+                                                    scale: 1.05
+                                                },
+                                                whileTap: {
+                                                    scale: 0.95
+                                                },
+                                                children: "Contact Us About Our Other Services"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/hero.tsx",
+                                                lineNumber: 41,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/hero.tsx",
                                         lineNumber: 30,
                                         columnNumber: 15
@@ -331,20 +357,20 @@ function Hero() {
                                                         className: "w-2 h-2 bg-black rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 43,
+                                                        lineNumber: 55,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "10+ Years Experience"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 44,
+                                                        lineNumber: 56,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 54,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -354,20 +380,20 @@ function Hero() {
                                                         className: "w-2 h-2 bg-black rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 59,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Fully Insured"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 48,
+                                                        lineNumber: 60,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -377,26 +403,26 @@ function Hero() {
                                                         className: "w-2 h-2 bg-black rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 63,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "5-Star Rated"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 64,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 50,
+                                                lineNumber: 62,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -428,12 +454,12 @@ function Hero() {
                                     priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 75,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/hero.tsx",
-                                lineNumber: 57,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -476,7 +502,7 @@ function Hero() {
                             children: "Our Services"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 77,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -510,17 +536,17 @@ function Hero() {
                                                         className: "w-8 h-8 text-black group-hover:text-white transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 112,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 111,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 110,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -528,7 +554,7 @@ function Hero() {
                                                 children: "Removals"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 115,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -536,7 +562,7 @@ function Hero() {
                                                 children: "Full flat, house and office removals with packing and other services as required. A bespoke approach to best suit your needs."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 116,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,23 +572,23 @@ function Hero() {
                                                     children: "View Pricing →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 121,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 120,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -593,17 +619,17 @@ function Hero() {
                                                         className: "w-8 h-8 text-black group-hover:text-white transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 126,
+                                                        lineNumber: 138,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 137,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 136,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -611,7 +637,7 @@ function Hero() {
                                                 children: "Man & Van"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -619,7 +645,7 @@ function Hero() {
                                                 children: "Flexible van hire with driver right through from small vans for single items up to Lutons, Flatbeds and Tippers for bigger projects."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 142,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,23 +655,23 @@ function Hero() {
                                                     children: "View Pricing →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 147,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 146,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero.tsx",
-                                        lineNumber: 120,
+                                        lineNumber: 132,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -676,17 +702,17 @@ function Hero() {
                                                         className: "w-8 h-8 text-black group-hover:text-white transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/hero.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 164,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 163,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 162,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -694,7 +720,7 @@ function Hero() {
                                                 children: "Clearance"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 167,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -702,7 +728,7 @@ function Hero() {
                                                 children: "House, Office and Warehouse clearance services. We remove unwanted items and sell, donate or dispose of them responsibly."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 168,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -712,40 +738,40 @@ function Hero() {
                                                     children: "View Pricing →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 173,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 172,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 152,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 87,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 76,
+                    lineNumber: 88,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/hero.tsx",
-                lineNumber: 75,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]

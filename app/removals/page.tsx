@@ -70,21 +70,25 @@ export default function RemovalsPage() {
       {/* Pricing */}
       <section className="px-6 py-16 md:px-12 md:py-24 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Removal Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Domestic Removal Pricing</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {pricingTiers.map((tier, index) => (
-              <div key={index} className="border border-border rounded-lg p-8 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold mb-2">{tier.name}</h3>
-                <p className="text-muted-foreground mb-4">{tier.description}</p>
-                <div className="text-3xl font-bold mb-6">{tier.price}</div>
-                <ul className="space-y-3">
-                  {tier.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span className="text-sm">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              <div key={index} className="border border-border rounded-lg p-8 hover:shadow-lg transition-shadow h-full flex flex-col">
+                <div>
+                  <h3 className="text-2xl font-bold mb-2">{tier.name}</h3>
+                  <p className="text-muted-foreground mb-4 min-h-[48px]">{tier.description}</p>
+                </div>
+                <div className="mt-auto">
+                  <div className="text-3xl font-bold mb-6">{tier.price}</div>
+                  <ul className="space-y-3">
+                    {tier.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span className="text-primary mt-1">✓</span>
+                        <span className="text-sm">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             ))}
           </div>
@@ -99,6 +103,23 @@ export default function RemovalsPage() {
               <li>• Packing materials</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="px-6 pb-16 md:px-12">
+        <div className="max-w-4xl mx-auto text-center bg-gray-50 border border-border rounded-lg p-8 md:p-12">
+          <h3 className="text-2xl font-bold mb-4">Ready to book your removal?</h3>
+          <p className="text-muted-foreground mb-6">
+            Share the details of your move and we&apos;ll come back with a tailored quote.
+          </p>
+          <a
+            href="https://forms.gle/Dt4KmX9jkVonhaet5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+          >
+            Go to the removals quote form
+          </a>
         </div>
       </section>
 

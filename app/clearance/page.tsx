@@ -74,13 +74,15 @@ export default function ClearancePage() {
       {/* Pricing */}
       <section className="px-6 py-16 md:px-12 md:py-24 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Clearance Pricing by Volume</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Domestic Clearance Pricing</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {pricing.map((band, index) => (
-              <div key={index} className="border border-border rounded-lg p-6 bg-gray-50">
-                <h3 className="text-xl font-bold mb-2">{band.title}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{band.volume}</p>
-                <div className="space-y-3">
+              <div key={index} className="border border-border rounded-lg p-6 bg-gray-50 h-full flex flex-col">
+                <div className="min-h-[110px]">
+                  <h3 className="text-xl font-bold mb-2">{band.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">{band.volume}</p>
+                </div>
+                <div className="space-y-3 mt-auto">
                   {band.rows.map((row, idx) => (
                     <div key={idx} className="flex items-center justify-between bg-white border border-border rounded px-4 py-3">
                       <span className="text-sm font-semibold">{row.label}</span>
@@ -102,6 +104,23 @@ export default function ClearancePage() {
               <li>• Hazardous and/or heavy waste (e.g. rubble) will incur extra charge</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="px-6 pb-16 md:px-12">
+        <div className="max-w-4xl mx-auto text-center bg-gray-50 border border-border rounded-lg p-8 md:p-12">
+          <h3 className="text-2xl font-bold mb-4">Need help with a clearance?</h3>
+          <p className="text-muted-foreground mb-6">
+            Send us a WhatsApp with what you need clearing and we&apos;ll respond quickly with next steps.
+          </p>
+          <a
+            href="https://wa.me/447765283257?text=Hi%2C%20I%27m%20looking%20for%20a%20clearance%20quote."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+          >
+            WhatsApp us about clearance
+          </a>
         </div>
       </section>
 

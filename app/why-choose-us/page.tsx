@@ -32,15 +32,15 @@ export default function WhyChooseUsPage() {
       description: "Quick response times and clear communication throughout. We're always just a phone call away.",
     },
     {
-      icon: Banknote,
-      title: "Transparent Pricing",
-      description: "No hidden fees or surprise charges. What we quote is what you pay - simple and honest.",
-    },
-    {
       icon: Truck,
       title: "Reliable Fleet",
       description:
         "We use only modern, well-maintained vehicles and partner with local hire companies to give you the best, most reliable vans available.",
+    },
+    {
+      icon: Banknote,
+      title: "Transparent Pricing",
+      description: "No hidden fees or surprise charges. What we quote is what you pay - simple and honest.",
     },
   ]
 

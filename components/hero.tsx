@@ -16,27 +16,39 @@ export default function Hero() {
                 Serving South Devon & the South West
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-4 text-balance">
-                Professional removals, man & van and clearances in South Devon
+                Professional and Affordable removals, man & van and clearances in South Devon
               </h1>
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-                With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy removal
-                services across the South Hams, South Devon and the wider South West.
+                With over 10 years of experience, HTG Man & Van Ltd provides reliable, efficient and trustworthy services
+                across the South Hams, South Devon and the wider South West.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                From single items to full house moves, we treat every job with the same care and professionalism. Fully
-                insured, locally trusted, and always on time.
+                From full house moves, long distance courier or our range of clearance services, we treat every job with
+                the same care and professionalism. Fully insured, locally trusted, and always on time.
               </p>
 
-              <motion.a
-                href="https://forms.gle/Dt4KmX9jkVonhaet5"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-black text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors text-lg"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Get Your Free Removals Quote
-              </motion.a>
+              <div className="flex flex-wrap gap-4">
+                <motion.a
+                  href="https://forms.gle/Dt4KmX9jkVonhaet5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-black text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors text-lg"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Get Your Free Removals Quote
+                </motion.a>
+                <motion.a
+                  href="https://wa.me/447765283257?text=Hi%2C%20I%27m%20interested%20in%20your%20other%20services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block border border-black text-black px-8 py-4 rounded-lg font-semibold hover:bg-black hover:text-white transition-colors text-lg"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Contact Us About Our Other Services
+                </motion.a>
+              </div>
 
               <div className="mt-8 flex flex-wrap gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">

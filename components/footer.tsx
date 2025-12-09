@@ -5,9 +5,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-bold mb-2">HTG MAN & VAN LTD</h3>
+            <p className="text-sm opacity-90">8 Castle Court, Totnes TQ9 5PD</p>
             <p className="text-sm opacity-90">Company number 16573954</p>
             <p className="text-sm opacity-90">Licensed Waste Carrier #CBDU600553</p>
-            <p className="text-sm opacity-90">8 Castle Court, Totnes TQ9 5PD</p>
           </div>
 
           <div>
