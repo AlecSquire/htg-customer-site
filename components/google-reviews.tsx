@@ -5,28 +5,28 @@ import { motion } from "framer-motion"
 export default function GoogleReviews() {
   const googleReviews = [
     {
-      author: "Michael Thompson",
+      author: "Andy Webber",
       rating: 5,
-      text: "Excellent service! Very professional and punctual. Highly recommend HTG Man & Van.",
-      date: "2 months ago",
-    },
-    {
-      author: "Sarah Mitchell",
-      rating: 5,
-      text: "Great experience moving house. The team was friendly and careful with all our belongings.",
+      text: "Harry and his team of removal guys were fantastic from the moment of contact with Harry everything was easy and took all the stress out of moving. I would highly recommend the company to anyone planning a move",
       date: "1 month ago",
     },
     {
-      author: "David Chen",
+      author: "Julie Coote",
       rating: 5,
-      text: "Quick, efficient, and honest pricing. Will definitely use again for future moves.",
-      date: "3 weeks ago",
+      text: "Great work from Harry and his assistant. They took great care of our furniture and were very obliging and helpful. I recommend Harry - he is reliable and communicates well and promptly.",
+      date: "2 months ago",
     },
     {
-      author: "Emma Watson",
+      author: "Daren Wollington",
       rating: 5,
-      text: "Best man and van service in the area. Helped me move my office equipment seamlessly.",
-      date: "1 week ago",
+      text: "Booked Harry for a fairly long distance collection and delivery job. He provided a very professional service with excellent business correspondence at all…",
+      date: "1 month ago",
+    },
+    {
+      author: "Harry Scott",
+      rating: 5,
+      text: "Highly recommend. Helped us move house at short notice and was efficient, friendly and good price. Will definitely be using again",
+      date: "4 days ago · New",
     },
   ]
 
